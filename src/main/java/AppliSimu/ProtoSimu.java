@@ -16,7 +16,7 @@ public class ProtoSimu {
 
 	public static void main(String[] args) {
 
-		final Voiture maVoiture = new Voiture (100, 0, 10);
+		final Voiture maVoiture = new Voiture (100, 600, 10);
 		IHMVoiture monIHM = new IHMVoiture(maVoiture);
         Observateur obs = new Observateur(maVoiture, monIHM);
 		
